@@ -1,41 +1,430 @@
-html {
-  font-size: 100px;
-}
-
 body {
   margin: 0;
-  font-family: sans-serif;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: radial-gradient(black 15%, transparent 16%) 0 0,
-    radial-gradient(black 15%, transparent 16%) 8px 8px,
-    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
-    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
-  background-color: #282828;
-  background-size: 16px 16px;
-  background-attachment: fixed;
+  padding: 0;
 }
 
-.arrow {
-  width: 250px;
+#background {
+  left: 0px;
+  top: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3072px;
+  height: 2856px;
   overflow: hidden;
-  transition: all 0.2s;
-  transform: rotate(0deg);
-  display: inline-block;
+  z-index: 0;
 }
 
-h1 {
-  color: white;
-  font-weight: 100;
-  font-size: 60px;
-  display: flex;
-  align-items: center;
+#GradientFill1 {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 3072px;
+  height: 2856px;
+  z-index: 1;
 }
 
-.units {
-  font-size: 15px;
+#Rectangle1 {
+  left: 559px;
+  top: 494px;
+  position: absolute;
+  width: 1146px;
+  height: 2013px;
+  z-index: 2;
 }
-/*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
+
+#Rectangle5 {
+  left: 717px;
+  top: 2043px;
+  position: absolute;
+  width: 793px;
+  height: 176px;
+  z-index: 3;
+}
+
+#Layer5 {
+  left: 1113px;
+  top: 2045px;
+  position: absolute;
+  width: 395px;
+  height: 174px;
+  z-index: 4;
+}
+
+#Layer4 {
+  left: 720px;
+  top: 2045px;
+  position: absolute;
+  width: 396px;
+  height: 174px;
+  z-index: 5;
+}
+
+#Rectangle6 {
+  left: 715px;
+  top: 2217px;
+  position: absolute;
+  width: 798px;
+  height: 172px;
+  z-index: 6;
+}
+
+#notebook12805381920c {
+  left: 352px;
+  top: 284px;
+  position: absolute;
+  width: 1600px;
+  height: 1063px;
+  z-index: 7;
+}
+
+#Rectangle1copy {
+  left: 539px;
+  top: 495px;
+  position: absolute;
+  width: 1192px;
+  height: 1402px;
+  z-index: 8;
+}
+
+#OsamaManager {
+  left: 1444px;
+  top: 1299px;
+  position: absolute;
+  width: 82px;
+  height: 73px;
+  z-index: 9;
+}
+
+#SaraLeadDesigner {
+  left: 1444px;
+  top: 1490px;
+  position: absolute;
+  width: 136px;
+  height: 73px;
+  z-index: 10;
+}
+
+#YasirAssistantDesign {
+  left: 1442px;
+  top: 1696px;
+  position: absolute;
+  width: 183px;
+  height: 72px;
+  z-index: 11;
+}
+
+#notebook12805381920 {
+  left: 352px;
+  top: 284px;
+  position: absolute;
+  width: 1600px;
+  height: 1063px;
+  z-index: 12;
+}
+
+#OURTEAM {
+  left: 1178px;
+  top: 1138px;
+  position: absolute;
+  width: 93px;
+  height: 24px;
+  z-index: 13;
+}
+
+#Ellipse2 {
+  left: 1255px;
+  top: 1461px;
+  position: absolute;
+  width: 159px;
+  height: 155px;
+  z-index: 14;
+}
+
+#beautiful14278411920 {
+  left: 1253px;
+  top: 1459px;
+  position: absolute;
+  width: 159px;
+  height: 169px;
+  z-index: 15;
+}
+
+#Ellipse2copy {
+  left: 1257px;
+  top: 1650px;
+  position: absolute;
+  width: 159px;
+  height: 155px;
+  z-index: 16;
+}
+
+#brazil13688061920 {
+  left: 1241px;
+  top: 1642px;
+  position: absolute;
+  width: 191px;
+  height: 205px;
+  z-index: 17;
+}
+
+#Ellipse2copy2 {
+  left: 1257px;
+  top: 1272px;
+  position: absolute;
+  width: 159px;
+  height: 155px;
+  z-index: 18;
+}
+
+#man12094941920 {
+  left: 1253px;
+  top: 1299px;
+  position: absolute;
+  width: 206px;
+  height: 139px;
+  z-index: 19;
+}
+
+#GradientFill2 {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 3072px;
+  height: 2856px;
+  z-index: 20;
+}
+
+#Layer7 {
+  left: 1116px;
+  top: 2218px;
+  position: absolute;
+  width: 399px;
+  height: 170px;
+  z-index: 21;
+}
+
+#Layer6 {
+  left: 719px;
+  top: 2219px;
+  position: absolute;
+  width: 398px;
+  height: 170px;
+  z-index: 22;
+}
+
+#Ellipse1 {
+  left: 1073px;
+  top: 1607px;
+  position: absolute;
+  width: 158px;
+  height: 154px;
+  z-index: 23;
+}
+
+#Rectangle2 {
+  left: 757px;
+  top: 299px;
+  position: absolute;
+  width: 68px;
+  height: 74px;
+  z-index: 24;
+}
+
+#lettergmergedwithpap {
+  left: 608px;
+  top: 285px;
+  position: absolute;
+  width: 112px;
+  height: 105px;
+  z-index: 25;
+}
+
+#HOMEABOUTUS {
+  left: 766px;
+  top: 326px;
+  position: absolute;
+  width: 612px;
+  height: 14px;
+  z-index: 26;
+}
+
+#GreatestOfAllTime {
+  left: 683px;
+  top: 602px;
+  position: absolute;
+  width: 442px;
+  height: 56px;
+  z-index: 27;
+}
+
+#Atitlegiventothoswho {
+  left: 705px;
+  top: 669px;
+  position: absolute;
+  width: 373px;
+  height: 29px;
+  z-index: 28;
+}
+
+#RoundedRectangle1cop {
+  left: 827px;
+  top: 1983px;
+  position: absolute;
+  width: 149px;
+  height: 48px;
+  z-index: 29;
+}
+
+#May16th20173minreadL {
+  left: 589px;
+  top: 742px;
+  position: absolute;
+  width: 586px;
+  height: 192px;
+  z-index: 30;
+}
+
+#Rectangle3 {
+  left: 798px;
+  top: 963px;
+  position: absolute;
+  width: 155px;
+  height: 48px;
+  z-index: 31;
+}
+
+#SelectedWork {
+  left: 1033px;
+  top: 1921px;
+  position: absolute;
+  width: 151px;
+  height: 27px;
+  z-index: 32;
+}
+
+#RoundedRectangle1 {
+  left: 1306px;
+  top: 1981px;
+  position: absolute;
+  width: 149px;
+  height: 48px;
+  z-index: 33;
+}
+
+#RoundedRectangle1cop_0 {
+  left: 1149px;
+  top: 1983px;
+  position: absolute;
+  width: 149px;
+  height: 48px;
+  z-index: 34;
+}
+
+#RoundedRectangle1cop_1 {
+  left: 988px;
+  top: 1983px;
+  position: absolute;
+  width: 149px;
+  height: 48px;
+  z-index: 35;
+}
+
+#Rectangle4 {
+  left: 867px;
+  top: 1737px;
+  position: absolute;
+  width: 155px;
+  height: 50px;
+  z-index: 36;
+}
+
+#ReadMore {
+  left: 908px;
+  top: 1751px;
+  position: absolute;
+  width: 78px;
+  height: 19px;
+  z-index: 37;
+}
+
+#ReadMore_0 {
+  left: 840px;
+  top: 977px;
+  position: absolute;
+  width: 78px;
+  height: 19px;
+  z-index: 38;
+}
+
+#CreativeAndPassionat {
+  left: 635px;
+  top: 1140px;
+  position: absolute;
+  width: 118px;
+  height: 64px;
+  z-index: 39;
+}
+
+#Animegivesyouinsight {
+  left: 634px;
+  top: 1247px;
+  position: absolute;
+  width: 416px;
+  height: 408px;
+  z-index: 40;
+}
+
+#ALL {
+  left: 889px;
+  top: 1995px;
+  position: absolute;
+  width: 25px;
+  height: 19px;
+  z-index: 41;
+}
+
+#WEBDESIGN {
+  left: 1016px;
+  top: 1997px;
+  position: absolute;
+  width: 90px;
+  height: 19px;
+  z-index: 42;
+}
+
+#LOGODESIGN {
+  left: 1177px;
+  top: 1999px;
+  position: absolute;
+  width: 97px;
+  height: 19px;
+  z-index: 43;
+}
+
+#BRANDING {
+  left: 1339px;
+  top: 1995px;
+  position: absolute;
+  width: 74px;
+  height: 19px;
+  z-index: 44;
+}
+
+#12col {
+  left: 568px;
+  top: 284px;
+  position: absolute;
+  width: 1152px;
+  height: 2500px;
+  z-index: 45;
+}
+
+#Rectangle7 {
+  left: 2759px;
+  top: 1280px;
+  position: absolute;
+  width: 5px;
+  height: 35px;
+  z-index: 46;
+}
